@@ -13,6 +13,8 @@
 		6952EDD81A806E4C005609A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6952EDD71A806E4C005609A0 /* Images.xcassets */; };
 		6952EDDB1A806E4C005609A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6952EDD91A806E4C005609A0 /* LaunchScreen.xib */; };
 		6952EDE71A806E4C005609A0 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6952EDE61A806E4C005609A0 /* PostcardTests.swift */; };
+		6952EDF11A8167BF005609A0 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6952EDF01A8167BF005609A0 /* AlbertEinsteinStamp.jpg */; };
+		6952EDF31A8167E7005609A0 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6952EDF21A8167E7005609A0 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6952EDE01A806E4C005609A0 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6952EDE51A806E4C005609A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6952EDE61A806E4C005609A0 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		6952EDF01A8167BF005609A0 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		6952EDF21A8167E7005609A0 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		6952EDCE1A806E4C005609A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6952EDF21A8167E7005609A0 /* SagradaFamilia.jpeg */,
+				6952EDF01A8167BF005609A0 /* AlbertEinsteinStamp.jpg */,
 				6952EDCF1A806E4C005609A0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6952EDF11A8167BF005609A0 /* AlbertEinsteinStamp.jpg in Resources */,
 				6952EDD61A806E4C005609A0 /* Main.storyboard in Resources */,
 				6952EDDB1A806E4C005609A0 /* LaunchScreen.xib in Resources */,
 				6952EDD81A806E4C005609A0 /* Images.xcassets in Resources */,
+				6952EDF31A8167E7005609A0 /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
